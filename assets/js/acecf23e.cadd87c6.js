@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcooking_architecture=self.webpackChunkcooking_architecture||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/cooking-architecture/blog","blogTitle":"Blog"}')}}]);
