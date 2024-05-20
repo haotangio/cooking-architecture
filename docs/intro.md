@@ -2,46 +2,35 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Foreword by Hao Tang
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Developing frontend codebases may seem easy, but it is indeed a complex task. It's not just about writing code, but also
+about organizing, maintaining, and scaling the codebase.
 
-## Getting Started
+Over the years, numerous frontend technologies and tools have emerged, each with different approaches, "ways," or "best
+practices" for developing applications. In web and mobile app development, the
+plethora of solutions and patterns often leaves developers confused about which one to choose and which approach to
+follow. This is particularly problematic in the JavaScript ecosystem, where the overwhelming number of options has led
+to what is commonly known as "JavaScript Fatigue." And this is just one example among many like below.
 
-Get started by **creating a new site**.
+## The No Architecture
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Developers often start writing code without any architecture or structure, simply putting code into files. While this
+approach makes it easy to start, it becomes difficult to maintain and scale. It's akin to building a house without a
+blueprint—manageable for a small house, but disastrous for a larger one. This lack of planning is like constructing a
+house without proper engineering.
 
-### What you'll need
+Codebases built in this way become difficult to maintain, scale, and onboard new developers. This disorganized mess is
+commonly referred to as **The Big Ball of Mud**.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## The absence of Programming Principles and Philosophies
 
-## Generate a new site
+**"Don't be so serious, it's just a frontend dude!"**
 
-Generate a new Docusaurus site using the **classic template**.
+It's easy to fall into the trap of thinking that as long as the UI works and the demo is successful, nothing else
+matters. This mindset often leads to deprioritizing code quality, maintainability, and scalability.
 
-The classic template will automatically be added to your project after you run the command:
+Some developers, both frontend and backend, write code without understanding or being aware of essential programming
+principles and philosophies. This lack of foundational knowledge can lead to codebases that are difficult to manage and
+extend.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
