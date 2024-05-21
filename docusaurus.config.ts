@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Cooking Architecture',
   tagline: 'Craft Scalable and Elegant Frontend Applications with Precision and Clarity',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://haotangio.github.io',
@@ -61,7 +61,7 @@ const config: Config = {
       title: 'Cooking Architecture',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         // {
