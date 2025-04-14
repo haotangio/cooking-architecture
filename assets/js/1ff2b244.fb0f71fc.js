@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcooking_architecture=self.webpackChunkcooking_architecture||[]).push([[9382],{4788:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/cooking-architecture/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
