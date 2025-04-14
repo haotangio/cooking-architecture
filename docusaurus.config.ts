@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Cooking Architecture',
-  tagline: 'Craft Scalable and Elegant Frontend Applications with Precision and Clarity',
+  tagline: 'A Methodology for Organizing Scalable Frontend Codebase',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
